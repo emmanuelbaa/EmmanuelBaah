@@ -19,82 +19,76 @@
     font-size: 3rem;
   }
   #first{
-   background-color: cadetblue;
+   background-color: black;
    padding:20px;
    border:5px solid black;
    border-width:5px 2px;
    margin-top:10px;
-   margin-left:0;
-   width:400px;
+   margin-left:10px;
+   width:550px;
    height:50px;
+   border-radius:5px;
 
   }
   #second{
-    background-color: yellow;
+    background-color: white;
     padding:20px;
     border:1px solid black;
     margin-top: 5px;
-    margin-left:0px;
-    width:900px;
+    margin-left:10px;
+    width:400px;
     height:50px;
     border-width:10px 20px;
+    border-radius: 30px;
 
   }
   #third{
-    background-color: brown;
+    background-color:black;
     padding:20px;
     border:1px solid black;
     margin-top: 5px;
-    margin-left:0px;
+    margin-left:26px;
     width:45%;
     height:50px;
     border-width:20px 5px;
+    border-radius:200px
   
 
   }
   #fourth{
-    background-color: cadetblue;
+    background-color: white;
     padding:20px;
     border:5px solid black;
     margin-top:-350px;
-    margin-left:500px;
-    width:100%;
+    margin-left:650px;
+    width:500px;
     height:50px;
     border-width:10px 15px;
+    border-radius:12px;
 
   }
   #fifth{
-    background-color: yellow;
+    background-color: black;
     padding:20px;
     border:1px solid black;
     margin-top: 3px;
-    margin-left:65%;
-    width:100%;
+    margin-left:500px;
+    width:500px;
     height:50px;
     border-width:5px 8px;
 
   }
   #sixth{
-    background-color: brown;
+    background-color: white;
     padding:20px;
     border:1px solid black;
     margin-top: 5px;
-    margin-left:50%;
-    width:100%;
+    margin-left:690px;
+    width:500px;
     height:50px;
     border-width:10px 5px;
+    border-radius: 10px;
 
   }
-  @media screen and (max-width:800px){
-    #first{
-      width:fit-content;
-    
-    }
-    #second{
-      width:fit-content;
-    }
-  
-  }
-  @media screen and (max-width: 400px){}
-
+ 
   

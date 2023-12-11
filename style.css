@@ -14,10 +14,11 @@ body{
   
 }
 .menu-buttons{
-  border:2px solid black;
+  border:2px solid maroon;
   margin-top:350px;
   margin-left:600px;
-  background-color: orchid;
+  background-color: lightyellow;
+  border-radius:5px;
   
 }
 h1{
@@ -54,6 +55,14 @@ border:10px solid black;
 
 
 }
+#fourth{
+  border: 1px solid maroon;
+  padding-left: 10px;
+}
+#snake{
+  margin-top: -500px;
+}
+
 footer{
   text-align: right;
 }
