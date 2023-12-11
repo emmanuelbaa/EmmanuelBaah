@@ -17,7 +17,7 @@ function setup() {
   let button = createButton("clearCanvas");
   button.size(100,30);
   button.parent('button-holder');
-  button.class('menu-button');
+  button.class('menu-buttons');
   button.position(10, 300);
   button.mousePressed(clearCanvas);
 
@@ -25,7 +25,7 @@ function setup() {
   let button2 = createButton("strokeColour")
   button2.size(100,30)
   button2.parent('button-holder');
-  button2.class('menu-button');
+  button2.class('menu-buttons');
   button2.position(200, 300);
   button2.mousePressed(strokeColour);
 
