@@ -19,77 +19,44 @@
     font-size: 3rem;
   }
   #first{
-   background-color: black;
-   padding:20px;
-   border:5px solid black;
-   border-width:5px 2px;
-   margin-top:10px;
-   margin-left:10px;
-   margin: auto;
-   width:550px;
-   height:50px;
-   border-radius:5px;
-
-  }
-  #second{
-    background-color: white;
-    padding:20px;
-    border:1px solid black;
-    margin-top: 5px;
-    margin-left:10px;
-    width:400px;
-    height:50px;
-    border-width:10px 20px;
-    border-radius: 30px;
-
-  }
-  #third{
     background-color:black;
-    padding:20px;
-    border:1px solid black;
-    margin-top: 5px;
-    margin-left:26px;
-    width:45%;
-    height:50px;
-    border-width:20px 5px;
-    border-radius:200px
-  
-
-  }
-  #fourth{
-    background-color: white;
-    padding:20px;
-    border:5px solid black;
-    margin-top:-350px;
-    margin-left:650px;
-    width:500px;
-    height:50px;
-    border-width:10px 15px;
-    border-radius:12px;
-
-  }
-  #fifth{
-    background-color: black;
-    padding:20px;
-    border:1px solid black;
-    margin-top: 3px;
-    margin-left:500px;
-    width:500px;
-    height:50px;
-    border-width:5px 8px;
-
-  }
-  #sixth{
-    background-color: white;
-    padding:20px;
-    border:1px solid black;
-    margin-top: 5px;
-    margin-left:690px;
-    width:500px;
-    height:50px;
-    border-width:10px 5px;
-    border-radius: 10px;
-
-  }
+    width:200px;
+    height:200px;
+    margin-top: 60px;
+    border:10px solid black;
+    margin-left: 850px;
+    
+    }
+    #second{
+      background-color: white;
+      border:solid black;
+      border-width: 20px 10px;
+      margin-left: 560px;
+      margin-top:50px;
+      width:200px;
+      height:200px;
+    
+    }
+    #third{
+      background-color: black;
+      border:10px solid black;
+      margin-left: 300px;
+      width:200px;
+      height:200px;
+      margin-top: 100px;
+      border-width: 10px 20px;
+    }
+    #fourth{
+      padding-left: 10px;
+      text-align: center;
+      width:500px;
+      height:200px;
+      margin-left:20px;
+      margin-top:-800px;
+    }
+    footer{
+      margin-top:600px;
+      text-align: right;
+    }
  
   
