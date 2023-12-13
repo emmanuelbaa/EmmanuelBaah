@@ -1,5 +1,5 @@
-var speed = 0;
-var easing = 0.03;
+var motion = 0;
+var steps = 0.03;
 var count = 1;
 var c;
 
@@ -35,10 +35,10 @@ function setup() {
 function draw() {
  // background(220);
 
- var target = dist(mouseX, mouseY, pmouseX, pmouseY);
- speed += (target - speed) * easing;
+ var you = dist(mouseX, mouseY, pmouseX, pmouseY);
+ motion += (you - motion) * steps;
  if(mouseIsPressed) {
-   strokeWeight(speed/2);
+   strokeWeight(motion/2);
   
   line(mouseX, mouseY, pmouseX, pmouseY);
 }
